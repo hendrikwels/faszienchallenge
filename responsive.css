@@ -1,0 +1,60 @@
+
+
+@media (min-width: 600px) {
+
+
+/**************************************
+	HILFE SEITE
+**************************************/
+
+	.headline{
+		font-size: 3em;
+	}
+
+	.main-navigation{
+		position: static;
+		width: 350px;
+		height: 0;
+		transform: none;
+		transition: none;
+	}
+
+	.nav-toggle, #navicon{
+		display: none;
+	}
+
+	.main-navigation ul{
+		position: static;
+
+	}
+
+	.main-navigation ul li{
+		display: inline-block;
+	}
+
+	.main-navigation ul a{
+		font-size: 1.5em;
+		display: inline-block;
+	}
+
+
+/**************************************
+	BACKGROUND IMAGE
+**************************************/
+
+	form{
+		width: 40%;
+	}
+
+/**************************************
+	HILFE SEITE
+**************************************/
+
+.textarea{
+	width: 45%;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+}

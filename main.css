@@ -1,0 +1,170 @@
+
+/**************************************
+	UNIVERSAL	
+**************************************/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, a, label, input, button, small{
+	font-family: 'Nunito', sans-serif;
+
+}
+
+/**************************************
+	NAVBAR
+**************************************/
+
+header{	
+	background-color: #576366;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+
+.main-navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #576366;
+	transform: translateX(100%);
+	transition: transform 0.6s ease;
+}
+
+.main-navigation.open{
+	transform: translateX(0);
+}
+
+.main-navigation .nav-toggle{
+	padding: 10px 20px;
+	font-size: 2.5em;
+	color: #949A9B;
+	position: absolute;
+	right: 5%;
+	top: 5%;
+}
+
+.main-navigation ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-navigation ul a{
+	display: block;
+	padding: 10px 20px;
+	font-size: 2.5em;
+	color: #949A9B;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 300;
+}
+
+	#navicon{
+		font-size: 2.5em;
+		color: #949A9B;
+		position: relative;
+		padding: 1.5%;
+	}
+	header a{
+		padding: 1.5%;
+	}
+
+	#logo{
+		height: 100px;
+		position: relative;
+	}
+
+/**************************************
+	BACKGROUND + FORM
+**************************************/
+
+#background-img{
+	/*background-image: url('IMG_9632_3.jpg');*/
+	background-color: #F4EB38;
+	background-size: cover;
+	height: 800px;
+}
+
+
+
+.headline{
+	margin: 0;
+	padding-top: 7rem;
+	color: #fff;
+}
+
+
+form{
+	background-color: #fff;
+	width: 70%;
+	padding: 2%;
+	margin: auto;
+	margin-top: 10%;
+	border-radius: 5px;
+	/*box-shadow: 5px 5px 10px;*/
+
+}
+
+.btn-primary{
+	display: block;
+	margin: auto;
+	padding: 10px;
+	width: 30%;
+	background-color: #949A9B;
+	border: none;
+}
+
+
+
+
+
+/**************************************
+	HILFE SEITE
+**************************************/
+
+
+#background-pattern{
+
+	background: linear-gradient(#fff, transparent 50%),
+				linear-gradient(0deg, transparent, transparent),
+				url(geometry.png) repeat center;
+	width: 100%;
+	height: 800px;
+}
+
+.headline-bl{
+	margin: 0;
+	padding-top: 50px;
+	font-size: 3em;
+}
+
+.textarea{
+	width: 90%;
+	margin: 10px;
+	display: inline-block;
+}
+
+.textarea p{
+	font-size: 1.5em;
+	font-weight: 300 !important;
+}
+
+.yellow-btn {
+	background-color: #F4EB38;
+}
+
+.textarea button:hover, .textarea button:focus, .textarea button:active{
+	background-color: #F4EB38;
+}
+
+
+
